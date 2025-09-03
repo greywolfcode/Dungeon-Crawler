@@ -6,6 +6,7 @@ Download and place all python files in the same folder
 Run the main file. It will prompt you if you want it to leave history or wipe screen after every action. It will then prompt you for how long you want it to run for before it stops generation. 4 to 5 is reccomended for a deacent sized dungeon.
 
 To move input w, a, s, or d, and then press enter. All commands are case sensitive.
+
 Objects on the map:
 ```
 ☺︎ = Player
