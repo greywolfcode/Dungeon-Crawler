@@ -1,7 +1,10 @@
 # Dungeon-Crawler
 A text-based dungeon crawler game with procedural generation.
+## Requirements
+- Python3
+- Console that supports ANSI escape codes 
 ## Setup
-Download and place all python files in the same folder
+Download and place all python files in the same folder. Thats it.
 ## Play
 Run the main file. It will prompt you if you want it to leave history or wipe screen after every action. It will then prompt you for how long you want it to run for before it stops generation. 4 to 5 is reccomended for a deacent sized dungeon.
 
