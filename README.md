@@ -4,9 +4,11 @@ A text-based dungeon crawler game with procedural generation.
 - Python3
 - Console that supports ANSI escape codes 
 ## Setup
-Download and place all python files in the same folder. Thats it.
+Download and place all python files in the same folder, then run main.py.
 ## Play
-Run the main file. It will prompt you if you want it to leave history or wipe screen after every action. It will then prompt you for how long you want it to run for before it stops generation. 4 to 5 is reccomended for a deacent sized dungeon.
+Run the main file. It will prompt you if you want it to leave history or wipe screen after every action. It will then prompt you for how long you want it to run for before it stops generation. 4 to 5 is recommended for a decent sized dungeon.
+
+Note that generation does not always create a large dungon, no matter the size inputted.
 
 To move input w, a, s, or d, and then press enter. All commands are case sensitive.
 
@@ -38,7 +40,7 @@ slot1;slot2 (use 11-14 for armour slots)
 ### Battle
 You will see your health and energy, as well as your oponents health and energy
 You cannot do an attack if you do not have enough energy, and defending increases energy
-Attack/Defend Commands: Type a wepon attack and location (head, torso, legs, boots), such as:
+Attack/Defend Commands: Type a weapon attack and location (head, torso, legs, boots), such as:
 ```
 Sword;Stab;Legs
 ```
@@ -49,4 +51,5 @@ To make an offer:
 merchantItemName;merchantItemAmount;itemYouAreGiving;amountYouAreGiving
 ```
 Slot numbers go across, then down for the merchant
-If the merchant values the item the same or more them the offer, the trade will be given. Otherwise, the merchant will give you an example of what he might want
+
+If the merchant values the item the same or more them the offer, the trade will be given. Otherwise, the merchant will give you an example of what they might want
